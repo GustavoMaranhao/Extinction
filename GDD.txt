@@ -1,0 +1,41 @@
+Integrantes:
+David Luz
+Fernando Vasques
+Francisco Rodrigues 
+Gustavo Franckevicius Gurgel Maranhão
+
+Visão geral do jogo
+1. Enredo: 
+Uma organização secreta realiza uma pesquisa genética e consegue, a partir do processo de clonagem e manipulação genética de células recriar 8 casais
+de animais dados como extintos. Estes animais incluem, mas não se restringem, a casais de: Mamutes, Tigres dentes-de-sabre, Moas, pássaros dodô e pterodátilos. O problema é que por uma alteração imprevista esses animais adquirem força e atributos diferentes de suas espécies originais, tendo inclusive capacidade de simbolização, ou seja, falam, pensam e tem sentimentos. 
+
+O que ocorre é que a informação sobre essa experiência e seus resultados vazam e o resto do mundo começa a pressionar para que esses animais sejam sacrificados e que as pesquisas sejam encerradas. Sem ter certeza da nacionalidade da organização secreta várias potências começam a acusar seus opositores, os americanos acusam os russos de terem fins bélicos no projeto, os religiosos acusam  o projeto de ir contra as leis de Deus, alguns geneticistas alertam para o desequilíbrio ambiental que poderia acontecer se esses animais cruzarem com outros.
+
+Temendo por sua própria segurança e percebendo que realmente havia fins bélicos no projeto, os animais fogem do laboratório. Daí começa o desafio, o maior objetivo desses animais é alcançar um local seguro para procriarem e perpetuar sua nova espécie.
+
+A primeira fase seria o jogador com o objetivo de ligar os pontos em uma costelação e libertando um primeiro grupo de animais, a segunda fase seria focada no ponto de vista dos animais tentando escapar de algum tipo de labirinto e por fim uma última fase na qual o jogador terá que encontrar algum tipo de mapa ou pista que ajude-o na próxima estrutura de fases.
+
+
+Fluxo do Jogo
+1. O Jogo será composto por 4 estruturas de fase.
+2. Cada estrutura possui desafios diferentes, mas possuem a mesma estrutura que é a seguinte:
+
+Fase 1 - Libertação dos animais
+Um tipo de ligar os pontos com costelações, libertando animais específicos para serem utilizados na próxima fase.
+Fase 2 - Escape do labirinto
+Puzzle similar ao jogo The Lost Vikings, onde o jogador tem que utilziar seus animais para ultrapassar obstáculos/inimigos específicos.
+Fase 3 - Procura de novo mapa
+O jogador terá que encontrar alguma pista ou mapa que o ajudará na próxima “Fase 1” da próxima estrutura. Este mapa estará escondido entre outras imagens na tela.
+
+3. Ao final da repetição desta estrutura 4 vezes o jogo terminará com os animais a salvo em um tipo de “santuário”.
+ 
+
+Mecânica:
+O jogo será composto por fases sendo representados pelos países que estejam entre eles e seu objetivo final. Será criado um mapa e o jogador ajudará os animais por meio de habilidades especiais inerentes à cada espécie. Os desafios podem ser em formato de puzzle, envolvendo lógica e misturando ação de plataforma, por exemplo, utilizando uma estratégia para para passar um animal por um desafio específico. 
+Um exemplo de uma fase seria incluir um desafio que inclua atravessar um rio rodeado por inimigos, o jogador precisaria pensar em uma estratégia superar uma série de obstáculos. Os inimigos podem ser os próprios humanos pertencentes à organização secreta, usando armas e outros recursos pertinentes à cada fase.
+
+O jogador começa a fase em um dos cantos da tela. Sendo uma estrutura definida com 3 tipos de fases se repetindo por 4 vezes. Os controles de movimentação serão  simples (WASD) com um botão de ação sendo a barra de espaço.
+
+O mecanismo de "vidas" do jogador será baseado no número de animais sobreviventes na tela. Se o jogador não conseguir superar o obstáculo como previsto, ele “perderá” um de seus animais (representando as vidas). O jogador ainda poderá utilizar as habilidades deste animal “machucado”, mas se todos os seus animais forem machucados a fase será reiniciada.
+
+Durante a segunda fase (a de escapar do labirinto), sendo mais orientada à ação, cada animal terá seu próprio "elemento”, este elemento será utilizado para derrotar inimigos ou ultrapassar barreiras específicas. Por exemplo, água ultrapassa puzzles de fogo, terra de eletricidade e assim vai. Podendo ser colocados níveis de eficácia, tal como fogo tenta passar por fogo daria certo, mas removeria um pouco mais de energia do animal até este estiver machucado demais, removendo uma vida do jogador.

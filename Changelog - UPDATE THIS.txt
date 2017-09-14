@@ -1,0 +1,370 @@
+/*****************************************************************************************************************/
+REVISÃO DIA 05/07
+
+Level 1_1:
+	- Player não sendo mais empurrado pela armadilha para um lugar que não possa
+andar;
+	- Adicionado contador de estrelas sobre o mapa no iPad;
+
+Constellations:
+	- Checagem de qual constelação pertence a estrela sendo conectada;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 26/06
+
+Level1_1:
+	- Adicionado a movimentação para mobile;
+
+Level1_2:
+	- Adicionado a movimentação para mobile e botão para atirar;
+
+Geral:
+	- Auto-detecção se o browser está em mobile ou não, adaptando o jogo;
+
+Assets:
+	- Adicionados assets relacionados à movimentação para mobile;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 25/06
+
+Level1_1:
+	- Adicionado som ao pegar as chaves;
+
+Constellations class:
+	- Concertado bug do loop infinito em alguns casos de ligação entre 
+duas estrelas;
+
+Geral:
+	- Adaptado para uma tela de 800x600 e browser friendly;
+	- Adicionado domínio extinction.bl.ee;
+
+Assets:
+	- Adicionado som relacionado ao pickup das chaves;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 23/06
+
+Final class:
+	- Conta o final da estória;
+
+Level 1_1:
+	- Armadilhas com animação e afastando o player das chaves;
+	- poço dágua à direita da imagem, sem função a não ser decorativa;
+
+Level 1_3:
+	- Transição para a tela final, ao acabar a animação;
+
+Main class:
+	_ Adição de nova variável de cena;
+	- Adição de novos assets;
+
+Assets:
+	- Inclusão de imagens e sons para a tela final;
+	- Adição de assets de armadilha com vários frames e som crushing.mp3;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 22/06
+
+Menu class:
+	- Adicionada imagem de transição;
+
+Intro class:
+        - Conta a estória anterior ao jogo e chama o Menu;
+	- Implementados fade in e fade out da música;
+	- Adicionada imagem de transição;
+	- Alterações do tempo de exibição das mensagens;
+
+Level1_1:
+	- Adição de um barril explosivo;
+	- Adição de uma nova armadilhas e outro barril estáticos;
+	- Alterado o volume do barril explodindo para 0.1;
+	- Barril some depois de um tempo da explosão;
+	- Adicionado um filtro à imagem do deserto;
+
+Level1_2:
+	- Adicionada imagem de transição;
+	- Incrementada a estética do labirinto;
+	- Removida a segunda imagem do escorpião da tela (ainda funcional, só não visível);
+
+Enemy class:
+	- Alterada a cor do tiro para azul para maior visibilidade;
+
+Assets:
+	- Adição de imagens e sons relacionados aos barris estático e explosivo;
+	- Adição da classe de introdução ao jogo (intro.js);
+
+
+TODO:
+	Geral:
+	- Mudar como os assets são chamados, centralizadando todos em main.js (???);
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Adicionar filtro do photoshop às imagens;
+
+	Fase 2:
+	- Melhorar o som dos animais em loop;
+
+	Enemy:
+	- Às vezes os tiros acertam o player quando não deveriam;
+	- Inimigos atirando na parede se o player se aproximar demais;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 21/06
+
+Main class:
+	- Adição da função de preparação do level1_3 (setLevel13GameVar);
+
+Menu class:
+	- Adicionada a função de controle do som do jogo ingame;
+
+Level1_2:
+	- Adicionada a funcionabilidade de uma lanterna para aumentar o campo de visão do player;
+	- Player tem que ter libertado o animal da fase para sair;
+
+Level1_3:
+	- Adicionados sprite de fundo e do caderno a ser encontrado;
+	- Adicionada funcionalidade de clique com animação no caderno;
+	- Ao acabar a animação ocorre a transição para a tela de game over;
+	- Caderno pisca depois de um tempo para ajudar o player a encontrá-lo;
+
+Geral:
+	- Adicionada a classe level1_3 no arquivo index.html;
+
+Assets:
+	- Alterada a imagem do labirinto para incluir a lanterna (../level2/labyrinth.gif);
+	- Adição da imagem do caderno a ser encontrado em duas resoluções (../level3/notebook.png);
+	- Criação da classe contendo as funções do level3 (../level1_3.js);
+	- Adição da imagem para representar o som ligado(../menu/SomLigado.png);
+	- Adição da imagem para representar o som desligado(../menu/SomDesligado.png);
+
+TODO:
+	Geral:
+	- Mudar como os assets são chamados, centralizadando todos em main.js (???);
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Arrumar a resolução da imagem da animação do tablet;
+	- Recolocar a ligação correta das estrelas na imagem do minimapa;
+
+	Fase 2:
+	- Melhorar o som dos animais em loop;
+
+	Enemy:
+	- Às vezes os tiros acertam o player quando não deveriam;
+	- Inimigos atirando na parede se o player se aproximar demais;
+
+
+/*****************************************************************************************************************/
+REVISÃO DIA 20/06
+
+Player class:
+	- Tiros do player removem os inimigos do jogo;
+
+
+TODO:
+	Geral:
+	- Adicionar efeitos sonoros para as armadilhas, cadeado e player;
+	- Mudar como os assets são chamados, centralizadando todos em main.js (???);
+	- Fase 3;
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Arrumar a resolução da imagem da animação do tablet;
+	- Recolocar a ligação correta das estrelas na imagem do minimapa;
+
+	Fase 2:
+	- Melhorar o som dos animais em loop;
+	- Melhorar o posicionamento dos desafios;
+
+	Enemy:
+	- Às vezes os tiros acertam o player quando não deveriam;
+	- Inimigos atirando na parede se o player se aproximar demais;
+	- Mudar a imagem do tiro;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 19/06
+
+Main class:
+	- Mudança do escopo das variáveis de cena;
+
+Level1_2:
+	- Adicionado tile de vitóriaa para a transição para a próxima fase em lugar temporário;
+	- Ao ser atingido com um tiro a fase é reiniciada;
+	- Armadilhas e inimigos reposicionados segundo o esboço realizado;
+
+Enemy class:
+	- Detecção de acertos dos tiros com o player;
+
+
+TODO:
+	Geral:
+	- Adicionar efeitos sonoros para as armadilhas, cadeado e player;
+	- Mudar como os assets são chamados, centralizadando todos em main.js (???);
+	- Fase 3;
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Arrumar a resolução da imagem da animação do tablet;
+	- Recolocar a ligação correta das estrelas na imagem do minimapa;
+
+	Fase 2:
+	- Melhorar o som dos animais em loop;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 18/06
+
+Level1_2:
+	- Glitch da imagem do player quando piscando resolvido;
+
+Enemy class:
+	- Inimigo mudando do modo de patrulha para o de tiro e vice-versa;
+
+Assets:
+	- Adição de uma imagem representando o tiro do inimigo (../enemy/shot.png);
+
+
+TODO:
+	Geral:
+	- Adicionar efeitos sonoros para as armadilhas, cadeado e player;
+	- Mudar como os assets são chamados, centralizadando todos em main.js (???);
+	- Fase 3;
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Arrumar a resolução da imagem da animação do tablet;
+	- Recolocar a ligação correta das estrelas na imagem do minimapa;
+
+	Fase 2:
+	- Relocar e adicionar mais armadilhas no labirinto, incluindo o único inimigo;
+	- Melhorar o som dos animais em loop;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 17/06
+
+Level1_2:
+	- Label do início se movendo junto com a tela;
+	- Adicionados 2 inimigos em lugares quaisquer do mapa;
+
+Enemy class:
+	- Creação de uma classe de inimigo para ficar patrulhando com velocidades variáveis;
+	- Detecção do player no campo de visão de cada inimigo;
+
+Assets:
+	- Adição de uma imagem de testes para o campo de vicão dos inimigos (../sight.png);
+	- Adição de uma pasta para conter as imagens utilizadas pela classe do inimigo (../enemy/);
+	- Adição de um sprite sheet para o inimigo (../enemy/enemy.gif);
+	- Adição de uma imagem representando o avistamento do player (../enemy/sighted.png);
+	- Criação da classe contendo as funções do inimigo (../enemy.js);
+
+TODO:
+	Geral:
+	- Adicionar efeitos sonoros para as armadilhas, cadeado e player;
+	- Mudar como os assets são chamados, centralizadando todos em main.js (???);
+	- Fase 3;
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Arrumar a resolução da imagem da animação do tablet;
+	- Recolocar a ligação correta das estrelas na imagem do minimapa;
+
+	Fase 2:
+	- Glitch no sprite do personagem enquanto ele está piscando após pisar em uma armadilha;
+	- Relocar e adicionar mais armadilhas no labirinto, incluindo o único inimigo;
+	- Melhorar o som dos animais em loop;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 16/06
+
+Main class:
+	- Ações reassinaladas para novos keybinds;
+	- Nova função para update da label das chaves (game.updateKeys);
+	- Nova variável game.currentScene;
+
+Level1_1:
+	- Implementada a função game.updateKeys na criação da HUD e quando o player pega uma chave;
+
+Level1_2:
+	- Adicionadas jaulas vazia e ocupada (com cadeado em frente) no início para testes;
+	- Colisão do mapa alterada temporariamente;
+	- Check para abrir a jaula;
+	- Implementada a função game.updateKeys na criação da HUD e quando o player usa uma chave;
+	- Implementada representação gráfica na HUD do animal liberado com seletor funcionando;
+	- Implementado o uso de poderes por parte do player;
+
+Player class:
+	- Novos event listeners para os botões a e b;
+
+Assets:
+	- Adição da imagem do escorpião a ser desenhado na tela (../level2/scorpion.png);
+	- Adição da imagem de seleção de poder a ser usado (../level2/Selector.png);
+	- Update da imagem dos tiles do labirinto para conter o escorpião e sua jaula (../level2/labyrinth.gif);
+	- Adição da imagem do tiro de veneno do escorpião (../player/shot2.png);
+	- Adição da imagem de contato do tiro com outro sprite (../player/explosion2.png);
+
+TODO:
+	Geral:
+	- Adicionar efeitos sonoros para as armadilhas, cadeado e player;
+	- Mudar como os assets são chamados, centralizadando todos em main.js (???);
+	- Fase 3;
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Arrumar a resolução da imagem da animação do tablet;
+	- Recolocar a ligação correta das estrelas na imagem do minimapa;
+
+	Fase 2:
+	- Glitch no sprite do personagem enquanto ele está piscando após pisar em uma armadilha;
+	- Relocar e adicionar mais armadilhas no labirinto, incluindo o único inimigo;
+	- Melhorar o som dos animais em loop;
+
+/*****************************************************************************************************************/
+REVISÃO DIA 15/06
+
+Main class:
+	- Nova função padronizando todas as mensagens de texto na HUD;
+	- Variável controladora de som (game.soundOn);
+
+Level1_1:
+	- Nova mensagem ao obter o iPad;
+	- Controle de som via variável em main (game.soundOn);
+
+Level1_2:
+	- 2 tiles de armadilha temporariamente colocados para teste (tile trap em foregroundMap);
+	- Armadilhas alternando entre ativada e desativada;
+	- Collision check com o player sobre armadilha ativada (trapUp) no event listener 'enterframe'de scene2;
+	- Colisão e remoção de vidas do jogador (personagem.life) com reset se esta chegar a 0;
+	- Representação gráfica das vidas do jogador na tela, automatizado para mudança na variável personagem.life seja refletida aqui;
+	- Controle de som via variável em main (game.sondOn);
+
+Menu class:
+	- Controle de som via variável em main (game.soundOn);
+
+Constellations:
+	- Controle de som via variável em main (game.soundOn);
+
+Player Class:
+	- Adição de variável de vida do jogador (player.life);
+
+Assets:
+	- Criação do arquivo Changelog.txt a ser feito o update com toda alteração de versão;
+	- Adição da imagem das vidas do jogador (../level2/heart.png);
+
+
+TODO:
+	Geral:
+	- Fase 3;
+
+	Fase 1:
+	- Adicionar funcionabilidade à armadilha ou removê-la por completo;
+	- Arrumar a resolução da imagem da animação do tablet;
+	- Recolocar a ligação correta das estrelas na imagem do minimapa;
+
+	Fase 2:
+	- Glitch no sprite do personagem enquanto ele está piscando após pisar em uma armadilha;
+	- Relocar e adicionar mais armadilhas no labirinto, incluindo o único inimigo;
+	- Adicionar Jaula do animal e sua funcionalidade posterior;
+	- Melhorar o som dos animais em loop;
+	- Texto ficando na tela algumas vezes em vez de dar fade out;
+
+/*****************************************************************************************************************/
