@@ -19,4 +19,4 @@ Gustavo Franckevicius Gurgel Maranhão
 
 Link to a demonstration video: https://www.youtube.com/watch?v=CoDM96MPFUM
 
-Link to a playable version online: http://labyrinthartifact.bitballoon.com/
+Link to a playable version online: http://extinction.bitballoon.com/
